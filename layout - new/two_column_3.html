@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 700px;
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            height: 100%;
+            background-color: antiquewhite;
+        }
+        .right{
+            width: 300px;
+            height: 100%;
+            background-color: #00ff77;
+        }
+        /*float + BFC*/
+        /*body{
+            overflow: auto;
+        }
+        .right{
+            float: right;
+        }*/
+
+        /*float + margin*/
+        /*.left{
+            margin-right: 300px;
+        }
+        .right{
+            float: right;
+        }
+        .right:after{
+            clear: both;
+            zoom: 1;
+        }*/
+
+        /*双float*/
+        /*.left{
+            float: left;
+            width: calc(100% - 300px);
+        }
+        .right{
+            float: right;
+        }
+        .right:after, .left:after{
+            clear: both;
+            zoom: 1;
+        }*/
+
+        /*!*postion + margin*!
+        .left{
+            margin-right: 300px;
+        }
+        .right{
+            position: absolute;
+            height: 700px;
+            right: 0;
+        }*/
+
+        /*flex*/
+        body{
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+        .right{
+            -webkit-flex: 0 0 auto;
+            flex: 0 0 auto;
+        }
+        .left{
+            -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="right"></section>
+    <section class="left"></section>
+</body>
+</html>
