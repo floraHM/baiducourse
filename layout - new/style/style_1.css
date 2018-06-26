@@ -1,0 +1,22 @@
+body{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15pt;
+}
+header{
+    font-size: 2em;
+    font-weight: bold;
+}
+h1{
+    font-size: 1.5em;
+}
+
+dt,
+h3{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+dt,
+dd{
+    display: inline-block;
+}
