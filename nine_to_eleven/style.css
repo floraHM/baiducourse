@@ -1,0 +1,341 @@
+/*by huangmei 2018-06-28 email:huangmei_6926@163.com*/
+/*全局属性*/
+body{
+    width:1600px;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Montserrat ExtraLight";
+    src: url("font/montserrat-extralight-webfont.eot");  /*IE*/
+    src: url("font/montserrat-extralight-webfont.eot?#iefix") format("embedded-opentype"),  /*IE6-IE8*/
+          url("font/montserrat-extralight-webfont.woff") format("woff"),   /*Modern Browser*/
+          url("font/montserrat-extralight-webfont.ttf") format("truetype"),  /*Safari Android ios*/
+          url("font/montserrat-extralight-webfont.svg#Montserrat ExtraLight") format("svg");  /*legacy ios*/
+    font-weight: normal;
+    font-style: normal;
+}
+/*page1*/
+.page1{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Montserrat ExtraLight";
+    color: #fff;
+    background: url("assets/Background.png") no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.page1 h1{
+    margin: 100px 0px 60px 0px;
+    display: block;
+    font-size: 62px;
+    font-weight: normal;
+
+}
+.page1 p{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    line-height: 38px;
+    opacity: 0.7;
+}
+.account{
+    box-sizing: border-box;
+    max-width: 965px;
+    min-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 60px 100px;
+    border: 0.5px solid rgba(255,255,255,0.2);
+}
+
+.account h4{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.account h6{
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.3;
+}
+.account form{
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -webkit-align-content: space-between;
+    flex-flow: row wrap;
+    align-content: space-between;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.account form input{
+    flex: 1 200px;
+    height: 50px;
+    margin-right: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0.5px solid rgba(255,255,255,0.2);
+    background: transparent;
+    padding: 20px;
+    color: rgba(255,255,255,1);
+}
+
+.account form input::placeholder{
+    color: rgba(255,255,255,0.3);
+}
+.account input::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.3);
+}
+.account form input::-moz-placeholder{
+    color: rgba(255,255,255,0.3);
+}
+.account form input:focus{
+    outline: none;
+    border: 0.5px solid rgba(255,255,255,0.2);
+}
+.signup{
+    flex: 0.5 60px;
+    height: 50px;
+    font-size: 12px;
+    font-family: "Montserrat ExtraLight";
+    font-weight: 700;
+}
+
+/*page2*/
+.page2{
+    font-family: "Montserrat ExtraLight";
+}
+
+header{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+.page2 header h6{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.page2 header h1{
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.advantage{
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -webkit-justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    list-style: none;
+}
+
+li{
+    -webkit-flex: 1 50%;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+li img{
+    float: left;
+    margin-right: 20px;
+}
+
+li div{
+    overflow: auto;
+}
+dt,
+dd{
+    margin: 0;
+    overflow: auto;
+    font-size: 20px;
+}
+
+dt{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+dd{
+    margin-left: 0;
+}
+
+/*page3*/
+.page3{
+    min-height: 800px;
+    padding: 100px;
+    padding-right: 0;
+    color: #fff;
+    background: url("assets/Background2.png") no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+.left{
+    float: left;
+    margin: 0 100px;
+    max-width: 510px;
+    padding-top: 20px;
+}
+.left h1{
+    max-width: 370px;
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.left p{
+    max-width: 370px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: justify;
+    word-wrap: break-word;
+    opacity: 0.7;
+}
+.left button{
+    width: 240px;
+    height: 60px;
+    border: 0.5px solid #fff;
+    font-family: "Montserrat ExtraLight";
+    font-size: 12px;
+    color: #fff;
+    background:transparent;
+
+}
+.left button:nth-of-type(1){
+    margin-right: 20px;
+}
+.right{
+    float: right;
+}
+
+/*page4*/
+.page4{
+    border: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: "Montserrat ExtraLight";
+    padding-bottom: 50px;
+}
+.page4 h1{
+    font-size: 42px;
+    opacity: 0.7;
+    margin: 100px;
+}
+.page4 p{
+    margin: 50px 0;
+    font-size: 16px;
+    word-wrap: break-word;
+    line-height: 20px;
+}
+.page4 main{
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-align-content: flex-start;
+    -webkit-justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page4 main div{
+
+    max-width: 270px;
+}
+
+/*page5*/
+.page5{
+    border: 1px solid rgba(0,0,0,0.1);
+    font-family: "Montserrat ExtraLight";
+    padding: 100px 0;
+}
+
+.page5 div{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.page5 h5{
+    width: 270px;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.page5 p{
+    width: 310px;
+    font-size: 20px;
+    opacity: 0.7;
+    overflow: auto;
+}
+
+.page5 div:nth-of-type(1) img{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.page5 div:nth-of-type(2) img{
+    float: right;
+    margin-left: 50px;
+}
+/*page6*/
+.page6{
+    border: 1px solid rgba(0,0,0,0.1);
+    font-family: "Montserrat ExtraLight";
+    padding: 100px 0;
+}
+
+.page6 h1{
+    font-size: 42px;
+}
+
+.page6 p{
+    width: 700px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.page6 main{
+    display: flex;
+    width: 1000px;
+    -webkit-flex-flow: row wrap;
+}
+.page6 main div{
+    flex: 1 470px;
+}
+
+.page6 img{
+    visibility: hidden;
+}
+
+.crew1{
+    background: url("assets/Backgrounduser1.png");
+}
+
+.crew2{
+    background: url("assets/Backgrounduser2.png");
+}
+
+.crew3{
+    background: url("assets/Backgrounduser3.png");
+}
+.crew4{
+    background: url("assets/Backgrounduser4.png");
+}
