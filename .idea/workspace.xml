@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1487214-5fd4-46e5-8014-0a50a721d577" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nine_to_eleven/index.html" afterPath="$PROJECT_DIR$/nine_to_eleven/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nine_to_eleven/style.css" afterPath="$PROJECT_DIR$/nine_to_eleven/style.css" />
-    </list>
+    <list default="true" id="c1487214-5fd4-46e5-8014-0a50a721d577" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -75,8 +71,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
-    <option name="y" value="222" />
+    <option name="x" value="482" />
+    <option name="y" value="145" />
     <option name="width" value="1315" />
     <option name="height" value="897" />
   </component>
@@ -153,18 +149,17 @@
       <workItem from="1530026435238" duration="689000" />
       <workItem from="1530093533604" duration="19000" />
       <workItem from="1530153669536" duration="29022000" />
-      <workItem from="1530232871880" duration="9901000" />
+      <workItem from="1530232871880" duration="10224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39631000" />
+    <option name="totallyTimeSpent" value="39954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="222" width="1315" height="897" extended-state="0" />
-    <editor active="true" />
+    <frame x="482" y="145" width="1315" height="897" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2025417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31850675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
