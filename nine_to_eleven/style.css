@@ -212,11 +212,17 @@ dd{
     width: 240px;
     height: 60px;
     border: 0.5px solid #fff;
+    letter-spacing: 1px;
     font-family: "Montserrat ExtraLight";
     font-size: 12px;
+    font-weight: 700;
     color: #fff;
     background:transparent;
 
+}
+.left button:hover{
+    color: #000;
+    background-color: #fff;
 }
 .left button:nth-of-type(1){
     margin-right: 20px;
@@ -303,39 +309,186 @@ dd{
 }
 
 .page6 h1{
+    text-align: center;
     font-size: 42px;
 }
 
 .page6 p{
     width: 700px;
+    margin:  0 auto;
+    margin-bottom: 70px;
     font-size: 18px;
     opacity: 0.7;
+
 }
+
 
 .page6 main{
     display: flex;
     width: 1000px;
     -webkit-flex-flow: row wrap;
+    -webkit-align-content: space-between;
+    -webkit-justify-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .page6 main div{
-    flex: 1 470px;
+    flex: 0 470px;
+    height: 340px;
+    margin: 30px 0;
+    overflow: hidden;
 }
 
 .page6 img{
-    visibility: hidden;
+    opacity: 0;
+}
+
+.page6 img:hover{
+    opacity: 0.6;
 }
 
 .crew1{
-    background: url("assets/Backgrounduser1.png");
+    background: url("assets/Backgrounduser1.png") no-repeat;
 }
 
 .crew2{
-    background: url("assets/Backgrounduser2.png");
+    background: url("assets/Backgrounduser2.png") no-repeat;
 }
 
 .crew3{
-    background: url("assets/Backgrounduser3.png");
+    background: url("assets/Backgrounduser3.png") no-repeat;
 }
 .crew4{
-    background: url("assets/Backgrounduser4.png");
+    background: url("assets/Backgrounduser4.png") no-repeat;
 }
+
+/*page7*/
+.page7{
+    border: 1px solid rgba(0,0,0,0.1);
+    font-family: "Montserrat ExtraLight";
+    padding: 100px;
+}
+.page7>div{
+    width: 1000px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.page7 form{
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.page7 h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.page7 form{
+    display: block;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.page7 input{
+    display: block;
+    width: 370px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    background: transparent;
+
+}
+
+.page7 textarea{
+    display: block;
+    width: 370px;
+    height: 145px;
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    background: transparent;
+}
+
+.page7 button{
+    display: block;
+    width: 370px;
+    height: 50px;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat ExtraLight";
+    background-color: #000;
+}
+
+.contact{
+    float: right;
+}
+
+.contact h1{
+    font-size: 42px;
+}
+.contact p{
+    width: 370px;
+    font-size: 16px;
+}
+
+.contact_info{
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact_info li{
+    margin: 50px 0;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 100px 200px;
+    color: #fff;
+    background-color: #000;
+}
+
+footer h6{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+footer a,
+footer p{
+    display: block;
+    width: 280px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    letter-spacing: 0;
+    opacity: 0.3;
+}
+
+.socialbuttons{
+    width: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.socialbuttons img{
+   margin-right: 20px;
+    opacity: 0.3;
+}
+
+
